@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function updateCountdown() {
         const countdownElement = document.getElementById("countdown");
         const daysSinceLastFight = getDaysSinceLastFight();
-        countdownElement.textContent = `Days Since Last Fight: ${daysSinceLastFight}`;
+        countdownElement.textContent = `Number of Days: ${daysSinceLastFight}`;
     }
 
     // Initial call to update the countdown
