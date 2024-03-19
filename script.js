@@ -1,7 +1,7 @@
 // script.js
 document.addEventListener("DOMContentLoaded", function() {
     // Date of the last fight
-    const lastFightDate = new Date("2024-03-19"); // Update this with your last fight date
+    const lastFightDate = new Date("2024-03-17"); // Update this with your last fight date
 
     // Function to calculate the number of days between two dates
     function getDaysSinceLastFight() {
