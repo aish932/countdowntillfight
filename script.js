@@ -25,4 +25,4 @@ document.addEventListener("DOMContentLoaded", function() {
         // Replace 'https://example.com' with the URL you want to open
         const detailsPageUrl = 'https://docs.google.com/spreadsheets/d/1L8zycbdaQCWh37uybB4V3ijCujTerRL4hMeYhxHTcIc/edit#gid=0';
         window.open(detailsPageUrl, '_blank');
-});
+}});
