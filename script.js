@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const detailsPageUrl = 'https://docs.google.com/spreadsheets/d/1L8zycbdaQCWh37uybB4V3ijCujTerRL4hMeYhxHTcIc/edit#gid=0';
         window.open(detailsPageUrl, '_blank');
     }
-
-    // Attach click event listener to the button
+ // Attach click event listener to the button
     const detailsButton = document.getElementById('detailsButton');
     detailsButton.addEventListener('click', openDetailsPage);
-});
+
+    });
