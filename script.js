@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener("DOMContentLoaded", function() {
     // Date of the last fight
     const lastFightDate = new Date("2024-03-17"); // Update this with your last fight date
@@ -20,9 +19,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Initial call to update the countdown
     updateCountdown();
-     // Function to open details page in a new tab
+
+    // Function to open details page in a new tab
     function openDetailsPage() {
         // Replace 'https://example.com' with the URL you want to open
         const detailsPageUrl = 'https://docs.google.com/spreadsheets/d/1L8zycbdaQCWh37uybB4V3ijCujTerRL4hMeYhxHTcIc/edit#gid=0';
         window.open(detailsPageUrl, '_blank');
-}});
+    }
+
+    // Attach click event listener to the button
+    const detailsButton = document.getElementById('detailsButton');
+    detailsButton.addEventListener('click', openDetailsPage);
+});
